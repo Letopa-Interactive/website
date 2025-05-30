@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Letopa Interactive - Homepage">
+    <title>Letopa Interactive</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="logo2.png"/>
+    <style>
+        body {
+            font-family: 'Open Sans';
+            margin: 0;
+            padding: 0;
+            background-color: rgb(37, 1, 122);
+            color: white;
+        }
+
+        header {
+            background-color: rgb(52, 26, 114);
+            color: white;
+            padding: 10px 20px;
+
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .game-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: nowrap;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .game-card {
+            border-radius: 13px;
+            background: rgb(30, 5, 88);
+            color: white;
+            border: 1px solid #ddd;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 30%; /* Adjust as needed */
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header"><img src = "logo2.png" width = '130' height = '130'> <h1>Welcome to Letopa Interactive</h1></div>    
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#games">Games & Projects</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+<div class="content">
+    <section id="games">
+        
+        <h2>Our Latest Games</h2>
+        <div class="game-cards">
+            <a href="the-dark-forest-ee.html">
+                <div class="game-card">
+                    <!-- <img src="game1.jpg" alt="The Dark Forest: Enhanced Edition"> -->
+                    <h3>The Dark Forest Enhanced Edition [NOW AVAILABLE]</h3>
+                    <p>Native PC port of the original text-based adventure game released in 2022.</p>
+                </div>
+                </a>
+            <a href="the-dark-forest.html">
+            <div class="game-card">
+                <!-- <img src="game1.jpg" alt="The Dark Forest: Enhanced Edition"> -->
+                <h3>The Dark Forest</h3>
+                <p>Explore an atmospheric text-based RPG with retro elements and challenge. Become a hero beginning a new journey.</p>
+            </div>
+            </a>
+            <a href = "the-dark-cave.html">
+            <div class="game-card">
+                <!-- <img src="game2.jpg" alt="Upcoming DLC"> -->
+                <h3>The Dark Cave</h3>
+                <p>Face new foes in the perilous Dark Cave. Survive the forsaken undercroft in this follow-up to the first game.</p>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Letopa Interactive</h2>
+        <p>At Letopa Interactive we strive to go past the regular boundaries of gaming. Founded in 2022, we have so far released 3 games, following 1 simple rule: A game should be just as fun to play as it is to make.</p>
+    </section>
+
+    <section id="news">
+        <h2>News</h2>
+        <h3><a href="blog-tdf-ee-release.html">The Dark Forest Enhanced Edition is now out</a></h3>
+        <p>Well, we're certainly a bit late to announce this!</p>
+        <p>The Dark Forest Enhanced Edition is out now, available on Windows, Linux, and MacOS.</p>
+        <p>Read <b><a href="blog-tdf-ee-release.html">this blog post</a></b> to learn more about The Dark Forest Enhanced Edition's launch and future.</p>
+        <h3><a href="blog-tdf-ee-announcement.html">The Dark Forest and The Dark Cave are being officially ported to PC.</a></h3>
+        <p>We're incredibly excited to announce that after nearly 3 years, the exciting world of The Dark Forest will finally make its way to PC with The Dark Forest Enhanced Edition.</p>
+        <p>The Dark Forest Enhanced Edition is the definitive version of the game, currently only on Windows.</p>
+        <p>This version of the game includes many new things, including:</p>
+        <ul>
+            <li>Two new difficulties</li>
+            <li>Completely rebalanced gameplay</li>
+            <li>New Game+</li>
+            <li>Achievements</li>
+        </ul>
+        <p>And more!</p>
+        <p>All of this is realized by a new in-house engine that the original games have been ported onto, which future Letopa games will utilize even further.</p>
+        <p>Read <b><a href="blog-tdf-ee-announcement.html">this blog post</a></b> to learn more about The Dark Forest Enhanced Edition, including a final release date.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us at <b><a href="mailto:letopainteractive@gmail.com">letopainteractive@gmail.com</a></b> or on GitHub.</p>
+    </section>
+    <br>
+</div>
+
+<footer>
+    &copy; 2025 Letopa Interactive. All Rights Reserved.
+</footer>
+
+</body>
+</html>
