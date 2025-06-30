@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Letopa Interactive - The Dark Forest (2022)">
+    <title>LCORE Gen 1 | Letopa Interactive</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="../logo2.png"/>
+    <style>
+        body {
+            font-family: 'Open Sans';
+            margin: 0;
+            padding: 0;
+            background-color: rgb(37, 1, 122);
+            color: white;
+        }
+
+        header {
+            background-color: rgb(52, 26, 114);
+            color: white;
+            padding: 10px 20px;
+
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .game-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .game-card {
+            border-radius: 13px;
+            background: rgb(30, 5, 88);
+            color: white;
+            border: 1px solid #ddd;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 30%; /* Adjust as needed */
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+        .button {
+  font: bold 15px Open Sans;
+  text-decoration: none;
+  background-color: #377d7e;
+  color: #ffffff;
+  padding: 6px 6px 6px 6px;
+  border-radius: 15px;
+  border-top: 15px solid #377d7e;
+  border-right: 15px solid #377d7e;
+  border-bottom: 15px solid #377d7e;
+  border-left: 15px solid #377d7e;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header"><img src = "../logo2.png" width = '130' height = '130'> <h1>Welcome to Letopa Interactive</h1></div>    
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About Us</a>
+    <a href="../games.html">Games & Projects</a>
+    <a href="../team.html">Our Team</a>
+    <a href="../news.html">News</a>
+</nav>
+<div class="content">
+    <section id="games">
+        <h2>LCORE Gen 1 (October 25, 2025)</h2>
+        <p>LCORE (LetopaInteractive Creative OpenSource Runtime Engine) Gen 1 is a open source and cleaned up version of the LetopaCore (Gen 1.1) engine used in The Dark Forest: Enhanced Edition.</p>
+        <b>Engine Features:</b>
+        <ul>
+            <li>Styled textHandler for colored and formatted text</li>
+            <li>Animated/scrolling printed text</li>
+            <li>Animated/scrolling inputs</li>
+            <ul>
+                <li>Support to block inputs entered before input field is printed</li>
+            </ul>
+            <li>Ability to find source code path, AppData path (Windows only), and bundled files in package (PyInstaller executable only)</li>
+            <li>Image-to-ASCII converter that can compile and play full cutscenes</li>
+            <ul>
+                <li>Support for thread-accelerated compilation and rendering</li>
+            </ul>
+        </ul>
+        <br>
+        <a href="https://github.com/Letopa-Interactive/The-Dark-Forest-Enhanced-Edition/releases" class="button">Download on GitHub</a>
+    </section>
+    <br>
+</div>
+
+<footer>
+    &copy; 2025 Letopa Interactive. All Rights Reserved.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Letopa Interactive - The Dark Forest Enhanced Edition">
+    <title>The Dark Forest Enhanced Edition | Letopa Interactive</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link rel="icon" type="image/png" href="../logo2.png"/>
+    <style>
+        body {
+            font-family: 'Open Sans';
+            margin: 0;
+            padding: 0;
+            background-color: rgb(37, 1, 122);
+            color: white;
+        }
+
+        header {
+            background-color: rgb(52, 26, 114);
+            color: white;
+            padding: 10px 20px;
+
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            color: #f4f4f4;
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .game-cards {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            color: white;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        .game-card {
+            border-radius: 13px;
+            background: rgb(30, 5, 88);
+            color: white;
+            border: 1px solid #ddd;
+            flex-grow: 1;
+            flex-shrink: 0;
+            flex-basis: 30%; /* Adjust as needed */
+            margin: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+        }
+        table, th, td {
+            border: 2px solid white;
+            border-collapse: collapse;
+            padding: 10px
+        }
+        .button {
+  font: bold 15px Open Sans;
+  text-decoration: none;
+  background-color: #377d7e;
+  color: #ffffff;
+  padding: 6px 6px 6px 6px;
+  border-radius: 15px;
+  border-top: 15px solid #377d7e;
+  border-right: 15px solid #377d7e;
+  border-bottom: 15px solid #377d7e;
+  border-left: 15px solid #377d7e;
+}
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header"><img src = "../logo2.png" width = '130' height = '130'> <h1>Welcome to Letopa Interactive</h1></div>    
+</header>
+
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About Us</a>
+    <a href="../games.html">Games & Projects</a>
+    <a href="../team.html">Our Team</a>
+    <a href="../news.html">News</a>
+</nav>
+<div class="content">
+    <section id="games">
+        
+        <h2>The Dark Forest Enhanced Edition (April 26, 2025)</h2>
+        <img src="https://raw.githubusercontent.com/Letopa-Interactive/The-Dark-Forest-Enhanced-Edition/refs/heads/main/CoverArt.png" alt="Cover Art">
+        <p><em>Cover art by Grace Porcaro (modernmom)</em></p>
+        <p>The Dark Forest Enhanced Edition is the native PC port of the original text-based adventure game released in 2022, out now. 
+        Running on a brand new, in house engine we call LetopaCore, we have overhauled every single aspect of the game. No line of code has been left untouched.</p>
+        <br>
+        <a href="https://github.com/Letopa-Interactive/The-Dark-Forest-Enhanced-Edition/releases" class="button">Download on GitHub</a>
+        <br>
+        <br>
+        <br>
+        <iframe frameborder="0" src="https://itch.io/embed/3601564?bg_color=0d1117&amp;fg_color=f0f6fc&amp;link_color=007f7f&amp;border_color=3c4046" width="552" height="167"><a href="https://letopainteractive.itch.io/thedarkforestenhanced">The Dark Forest Enhanced Edition by Letopa Interactive</a></iframe>
+        <h1 id="features-">Features:</h1>
+        <ul>
+        <li><strong>Expanded replayability</strong><ul>
+        <li><strong>New Difficulty System</strong><ul>
+        <li>We have tweaked the difficulty of the original game, making it more fair and less frustrating</li>
+        <li>Difficulties can now scale RNG mechanics and allow you to tweak your game experience</li>
+        <li>To add to this flexibility, we've introduced two new difficulty levels:<ul>
+        <li>Story Mode<ul>
+        <li>Take less damage and have more chances of survival. Ideal for those who want to play just for the story.</li>
+        </ul>
+        </li>
+        <li>Original<ul>
+        <li>The original difficulty. Unforgiving but not impossible.</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li><strong>New Game+</strong><ul>
+        <li>After beating the game on a save file, you can replay it</li>
+        <li>Features the most challenging game experience</li>
+        <li>Includes four exclusive and challenging boss fights </li>
+        </ul>
+        </li>
+        <li><strong>Replayable Boss Fights</strong><ul>
+        <li>After beating the game, you can replay full boss fights at any time</li>
+        </ul>
+        </li>
+        <li><strong>Chapter System</strong><ul>
+        <li>We've now split the game into four chapters</li>
+        <li>After beating the game you can replay any individual one</li>
+        </ul>
+        </li>
+        <li><strong>Multiple Save Slots</strong><ul>
+        <li>We've fully designed the save system, now allowing you to have up to six saves at the same time.</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li><strong>Statistics Tracking</strong><ul>
+        <li>In any save file, you can view multiple things about your run, including:<ul>
+        <li>Achievements collected</li>
+        <li>Time played</li>
+        <li>Number of deaths</li>
+        </ul>
+        </li>
+        <li><strong>Achievements</strong><ul>
+        <li>You'll now receive a number of achievements for progressing through the game, such as:<ul>
+        <li>Completing chapters</li>
+        <li>Beating boss fights</li>
+        <li>Beating the game on different difficulty levels</li>
+        <li>Finding (new) secrets</li>
+        <li>Completing New Game+</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li><strong>Extreme Polish</strong><ul>
+        <li>We've spent a long time making sure the game runs flawlessly on a technical level for everyone</li>
+        <li>We've fixed many bugs and crashes, to the point where one of our beta testers encountered zero issues in a full playthrough</li>
+        </ul>
+        </li>
+        <li><strong>The Dark Cave Integration</strong><ul>
+        <li>The Dark Cave spin off has been seamlessly ported into the base game, meaning there's zero delay when getting into it</li>
+        </ul>
+        </li>
+        <li><strong>Modernized Controls</strong><ul>
+        <li>We've redesigned how the controls system works, using the number keys for many niche interactions rather than random keys on the keyboard</li>
+        </ul>
+        </li>
+        <li><strong>Settings UI</strong><ul>
+        <li>You can now tweak your save file from anywhere within the game, changing things like:<ul>
+        <li>Difficulty</li>
+        <li>Toggling text scrolling</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li><strong>Pause Menu</strong><ul>
+        <li>Pause the game by inputting <code>p</code> at any time to access:<ul>
+        <li>The settings UI</li>
+        <li>Quit to menu/desktop</li>
+        <li>Checkpoint reload</li>
+        </ul>
+        </li>
+        </ul>
+        </li>
+        <li><strong>Death Screen</strong><ul>
+        <li>Upon dying, you can now choose to leave the game and see some other data, rather than having the game instantly close</li>
+        </ul>
+        </li>
+        <li><strong>So much more!</strong></li>
+        </ul>
+        <p>We at Letopa have put an insane amount of work into this release. Without further ado, here are the supported platforms:</p>
+        <h1 id="supported-platforms">Supported Platforms</h1>
+        <table>
+        <thead>
+        <tr>
+        <th>OS</th>
+        <th>Architecture</th>
+        <th>Supported?</th>
+        <th>Updates Supported?</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Windows</td>
+        <td>x86</td>
+        <td>✅</td>
+        <td><strong>6 months</strong> (Until end of October)</td>
+        </tr>
+        <tr>
+        <td>Windows</td>
+        <td>ARM64</td>
+        <td>✅</td>
+        <td><strong>6 months</strong> (Until end of October)</td>
+        </tr>
+        <tr>
+        <td>MacOS</td>
+        <td>x86</td>
+        <td>❌</td>
+        <td><strong>N/A</strong></td>
+        </tr>
+        <tr>
+        <td>MacOS</td>
+        <td>ARM64</td>
+        <td>✅</td>
+        <td><strong>TBD</strong></td>
+        </tr>
+        <tr>
+        <td>Linux</td>
+        <td>x86</td>
+        <td>✅</td>
+        <td>❌</td>
+        </tr>
+        <tr>
+        <td>Linux</td>
+        <td>ARM64</td>
+        <td>❌</td>
+        <td><strong>N/A</strong></td>
+        </tr>
+        </tbody>
+        </table>
+        <p><strong>At this time, we have no plans to support any other platforms.</strong> This is due to current lack of resources and machines on these operating systems.</p>
+        <h1 id="system-requirements-minimum-">System Requirements (Minimum)</h1>
+        <p>You can also test your hardware by running the Benchmark Test <a href="https://github.com/Letopa-Interactive/The-Dark-Forest-Enhanced-Edition/releases/tag/benchmark-v1.0.0">here</a>.</p>
+        <table>
+        <thead>
+        <tr>
+        <th>OS</th>
+        <th>CPU</th>
+        <th>GPU</th>
+        <th>RAM</th>
+        <th>Dedicated Space</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Windows (x86)</td>
+        <td>Any CPU @1 Ghz+</td>
+        <td>Any</td>
+        <td>2 GB</td>
+        <td>~12 MB</td>
+        </tr>
+        <tr>
+        <td>Windows (ARM64)</td>
+        <td>Any Snapdragon CPU</td>
+        <td>Any</td>
+        <td>2 GB</td>
+        <td>~11 MB</td>
+        </tr>
+        <tr>
+        <td>MacOS (ARM64)</td>
+        <td>Any Apple <em>M</em> Series CPU</td>
+        <td>Any</td>
+        <td>8 GB</td>
+        <td>~11 MB</td>
+        </tr>
+        <tr>
+        <td>Linux (x86)</td>
+        <td>Any CPU @1 Ghz+</td>
+        <td>Any</td>
+        <td>2 GB</td>
+        <td>~98 MB</td>
+        </tr>
+        </tbody>
+        </table>
+        <h1 id="system-requirements-recommended-">System Requirements (Recommended)</h1>
+        <p><strong>Bolded marks changes</strong></p>
+        <table>
+        <thead>
+        <tr>
+        <th>OS</th>
+        <th>CPU</th>
+        <th>GPU</th>
+        <th>RAM</th>
+        <th>Dedicated Space</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+        <td>Windows (x86)</td>
+        <td>Any CPU @<strong>1.5</strong> Ghz+</td>
+        <td>Any</td>
+        <td><strong>8</strong> GB</td>
+        <td>~12 MB</td>
+        </tr>
+        <tr>
+        <td>Windows (ARM64)</td>
+        <td>Any Snapdragon CPU</td>
+        <td>Any</td>
+        <td><strong>8</strong> GB</td>
+        <td>~11 MB</td>
+        </tr>
+        <tr>
+        <td>MacOS (ARM64)</td>
+        <td>Any Apple <em>M</em> Series CPU</td>
+        <td>Any</td>
+        <td>8 GB</td>
+        <td>~11 MB</td>
+        </tr>
+        <tr>
+        <td>Linux (x86)</td>
+        <td>Any CPU @<strong>1.5</strong> Ghz+</td>
+        <td>Any</td>
+        <td><strong>8</strong> GB</td>
+        <td>~98 MB</td>
+        </tr>
+        </tbody>
+        </table>
+        <br>
+    </section>
+    <br>
+</div>
+
+<footer>
+    &copy; 2025 Letopa Interactive. All Rights Reserved.
+</footer>
+
+</body>
+</html>
