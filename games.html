@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Letopa Interactive - Homepage">
-    <title>Home | Letopa Interactive</title>
+    <meta name="description" content="Letopa Interactive - Games">
+    <title>Games & Projects | Letopa Interactive</title>
     <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
     <link rel="icon" type="image/png" href="logo2.png"/>
     <style>
@@ -76,23 +76,6 @@
             width: 100%;
             height: auto;
         }
-        .hero {
-    text-align: center;
-    padding: 60px 20px;
-
-}
-.cta-button {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #377d7e;
-    color: white;
-    border-radius: 8px;
-    font-weight: bold;
-}
-.cta-button:hover {
-    background: #8e4bd1;
-}
     </style>
 </head>
 <body>
@@ -102,18 +85,53 @@
 </header>
 
 <nav>
-    <a href="#">Home</a>
+    <a href="index.html#">Home</a>
     <a href="about.html">About Us</a>
-    <a href="games.html">Games & Projects</a>
+    <a href="#">Games & Projects</a>
     <a href="team.html">Our Team</a>
     <a href="news.html">News</a>
 </nav>
 <div class="content">
-    <section class="hero">
-        <h2>Discover Stories That Matter</h2>
-        <p>Letopa Interactive creates inventive, story-driven videogame experiences that pushes back against the norms.</p>
-        <a href="games.html" class="cta-button">Explore Our Games</a>
-      </section>
+    <section id="games">
+        
+        <h2>Our Games</h2>
+        <div class="game-cards">
+            <a href="games/the-dark-forest-ee.html">
+                <div class="game-card">
+                    <!-- <img src="game1.jpg" alt="The Dark Forest: Enhanced Edition"> -->
+                    <h3>The Dark Forest Enhanced Edition [NOW AVAILABLE]</h3>
+                    <p>Native PC port of the original text-based adventure game released in 2022.</p>
+                </div>
+                </a>
+            <a href="games/the-dark-forest.html">
+            <div class="game-card">
+                <!-- <img src="game1.jpg" alt="The Dark Forest: Enhanced Edition"> -->
+                <h3>The Dark Forest</h3>
+                <p>Explore an atmospheric text-based RPG with retro elements and challenge. Become a hero beginning a new journey.</p>
+            </div>
+            </a>
+            <a href = "games/the-dark-cave.html">
+            <div class="game-card">
+                <!-- <img src="game2.jpg" alt="Upcoming DLC"> -->
+                <h3>The Dark Cave</h3>
+                <p>Face new foes in the perilous Dark Cave. Survive the forsaken undercroft in this follow-up to the first game.</p>
+            </div>
+            </a>
+        </div>
+    </section>
+    <section id="projs">
+        
+        <h2>Our Projects</h2>
+        <div class="game-cards">
+            <a href="projects/lcore-gen1.html">
+                <div class="game-card">
+                    <!-- <img src="game1.jpg" alt="The Dark Forest: Enhanced Edition"> -->
+                    <h3>LCORE Gen 1</h3>
+                    <p>Open-source version of the engine that powers The Dark Forest Enhanced Edition, LetopaCore Gen 1.</p>
+                </div>
+                </a>
+            
+    </section>
     <br>
 </div>
 
